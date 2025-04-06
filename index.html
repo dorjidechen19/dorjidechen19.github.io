@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dechen Dorji | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>    
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span id="animated-name"></span></h1>
+                <p class="tagline">Creative UI/UX designer and Developer</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="#about" class="btn">Explore My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm Dechen Dorji, a passionate designer and developer specializing in UI/UX design, web development, and digital illustration. I craft beautiful, functional experiences by merging creative vision with technical precision—whether designing interfaces, building websites, or creating digital art.</p>
+                        <!-- <p>When I'm not working, I enjoy exploring nature, photography, and learning new technologies.</p> -->
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <ul>
+                                <li>UI/UX Design</li>
+                                <li>Web Development</li>
+                                <li>Graphic Design</li>
+                                <li>Digital Artist</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/photo_2025-03-27_15-43-51.jpg" alt="Dechen Dorji">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section bg-light">
+            <div class="container">
+                <h2>My Experience</h2>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h3>Event Management System</h3>
+                        <p class="company">TECH STACK: Java, Springboot, Angular</p>
+                        <p class="date">2024</p>
+                        <p>Developed a CRUD-based event tracker for scheduling and organizing events.<br>
+
+                            Enabled users to add, view, edit, and delete events seamlessly.<br>
+                            
+                            Focused on clean architecture and user-friendly UI for efficient event management.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="company">TECH STACK: PHP, Laravel, HTML, CSS, JavaScript</p>
+                        <p class="date">2024 - 2025</p>
+                        <p>Built a full-featured online store with product listings, cart management, and payment integration.<br>
+
+                            Gained hands-on experience in Laravel MVC architecture and database optimization.<br>
+                            
+                            Ensured responsive design for cross-device compatibility.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Lesson Planning</h3>
+                        <p class="company">TECH STACK: Laravel, MySQL, Blade Templating</p>
+                        <p class="date">2025</p>
+                        <p>Created a dynamic lesson planner for educators to organize curricula.<br>
+
+                            Features included module creation, scheduling, and progress tracking.<br>
+                            
+                            Enhanced user roles (teacher/student) for collaborative learning.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="assets/resume.pdf" class="btn" download>Download Full Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section (Centered) -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>My Portfolio</h2>
+                
+                <!-- Centered Filter Buttons -->
+                <div class="portfolio-filter-container">
+                    <div class="portfolio-filter">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="art">Art</button>
+                        <button class="filter-btn" data-filter="web">Web Design</button>
+                        <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                       
+                    </div>
+                </div>
+                
+                <!-- Centered Portfolio Grid -->
+                <div class="portfolio-grid-container">
+                    <div class="portfolio-grid">
+                         <!-- illustrator -->
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i1.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i2.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i3.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i4.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i5.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i6.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i7.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i8.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i9.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i10.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i11.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i12.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i13.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i14.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i15.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i16.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i17.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i18.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i19.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                         <div class="portfolio-item" data-category="art">
+                            <img src="img\ill\i20.png" alt="Art Project">
+                            <!-- <div class="portfolio-overlay">
+                                <h3>Digital Art Series</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div> -->
+                        </div>
+                        
+
+
+                        <!-- Web design -->
+                        <!-- <div class="portfolio-item" data-category="web">
+                            <img src="img/web/Group 1.png" alt="Web Project">
+                            <div class="portfolio-overlay">
+                                <h3>E-commerce Website</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div>
+                        </div> -->
+                       
+                       
+    
+                        <!-- Graphic -->
+                        <!-- <div class="portfolio-item" data-category="graphic">
+                            <img src="img/graphic/Untitled-1.png" alt="Brand Design">
+                            <div class="portfolio-overlay">
+                                <h3>Brand Identity</h3>
+                                <a href="#" class="btn">View Project</a>
+                            </div>
+                        </div> -->
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-grid">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Contact Info</h3>
+                        <p><i class="fas fa-envelope"></i> dorjidechen19@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +975 17519061</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Thimphu, Bhutan</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Dechen Dorji. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
